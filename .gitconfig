@@ -1,0 +1,22 @@
+[user]
+    name = Blabos de Blebe
+    email = blabos@gmail.com
+[core]
+    editor = vim
+    symlinks = true
+	pager = less -F -X
+	excludesfile = /home/blabos/.gitignore
+[merge]
+    tool = meld
+[alias]
+    co = checkout
+    ci = commit
+    br = branch
+    st = status
+    lg = log
+    lgo = log --oneline
+    lgn = log --name-only
+    lgg = log --graph
+    unstage = reset HEAD --
+[color]
+    ui = true
